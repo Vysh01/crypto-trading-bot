@@ -2,4 +2,3 @@ requests
 websockets
 pandas
 numpy
-TA-Lib

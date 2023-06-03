@@ -29,7 +29,7 @@ def fetch_data(ticker):
     bars,ticker_df = None, None
 
     try:
-        bars = exchange.fetch_ohlcv(ticker, timeframe=f'{CANDLE_DURATION_IN_MIN}m', limit=100)
+        bars = exchange.fetch_ohlcv(ticker, timeframe=f'{CANDLIE_DURATION_IN_MIN}m', limit=100)
     except:
         print(f"Error in fetching data from the exchange:{ticker}")
 
